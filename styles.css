@@ -1,0 +1,118 @@
+body {margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+
+}
+  hr {border: dotted #EAF6F6 6px;
+  border-bottom: none;
+width: 4%;
+margin: 100px auto;}
+h1 {color: #990000;
+  margin: 50px auto 0 auto;
+
+  width: 10%;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+}
+h2 {font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+color: #990000;
+font-weight: normal;
+padding-bottom: 10px;
+}
+
+h3 {color: #FF5B00;
+font-family: 'Montserrat', sans-serif;}
+
+a {color: #990000;
+font-family: 'Montserrat', sans-serif;
+margin: 10px 20px;
+text-decoration: none;
+}
+a:hover {color: #311D3F;}
+/** #311D3F****/
+
+p {line-height: 2;}
+.pro {text-decoration: underline;
+
+}
+
+
+/***CLASS SELECTOR****/
+.top-container   {background-color:#FFEE63
+  ;
+  position: relative;
+  padding-top: 100px;
+}
+.intro {width: 30%;
+margin: auto;}
+
+ .middle-container {margin: 100px 0;
+ }
+
+  .bottom-cloud {position: absolute;
+    left: 550px;
+    bottom: 300px;
+  }
+  .top-cloud {
+    position: absolute;
+  right: 600px;
+    top: 90px;
+  }
+  .skill-row {width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+
+}
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.code-img {width: 25%;
+float: right;
+margin-left: 30px;
+}
+
+.comp-skill-description { clear: left;}
+
+.code-skill-description {clear: right;}
+.btn {  background: #FFEE63;
+  background-image: -webkit-linear-gradient(top, #FFEE63, #FF5B00);
+  background-image: -moz-linear-gradient(top, #FFEE63, #FF5B00);
+  background-image: -ms-linear-gradient(top, #FFEE63, #FF5B00);
+  background-image: -o-linear-gradient(top, #FFEE63, #FF5B00);
+  background-image: linear-gradient(to bottom, #FFEE63, #FF5B00);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #FF5B00, #990000);
+  background-image: -moz-linear-gradient(top, #FF5B00, #990000);
+  background-image: -ms-linear-gradient(top, #FF5B00, #990000);
+  background-image: -o-linear-gradient(top, #FF5B00, #990000);
+  background-image: linear-gradient(to bottom, #FF5B00, #990000);
+  text-decoration: none;
+}
+
+.bottom-container {background-color: #FFEE63;
+padding: 50px 0 20px;
+
+}
+
+.contact-message {width: 40%;
+margin: 40px auto 60px;}
+
+.copy {color: #FF5B00;
+font-size: 0.75rem;
+padding: 20px 0;}
